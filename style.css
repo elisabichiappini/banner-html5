@@ -5,12 +5,13 @@ body {
 .banner {
     width: 300px;
     height: 250px;
-    background: linear-gradient(135deg, #000, #333);
-    color: white;
+    background: linear-gradient(135deg, #a73c3c, #390b0b);
+    color: rgb(198, 148, 148);
     font-family: Arial, sans-serif;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+
 }
 
 .frame {
@@ -40,7 +41,7 @@ body {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background: red;
+    background: rgb(189, 82, 82);
     padding: 10px 20px;
     font-weight: bold;
     transition: transform 0.3s, background 0.3s;
