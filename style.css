@@ -1,5 +1,15 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc8080;
 }
 
 .banner {
@@ -11,7 +21,6 @@ body {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-
 }
 
 .frame {
@@ -49,5 +58,5 @@ body {
 
 .cta:hover {
     transform: translateX(-50%) scale(1.1);
-    background: #ff4444;
+    background: #a16464;
 }
