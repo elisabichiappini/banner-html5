@@ -20,12 +20,12 @@ body {
 .banner {
     width: 300px;
     height: 250px;
-    background: linear-gradient(135deg, #a73c3c, #390b0b);
-    color: rgb(198, 148, 148);
+    color: rgb(0, 255, 8);
     font-family: Arial, sans-serif;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    border: 1px solid #000000;
 }
 
 .frame {
@@ -48,7 +48,7 @@ body {
     top: 15px;
     left: 15px;
     opacity: 0.8;
-    width:100px;
+    width: 56px;
 }
 
 .set-img {
@@ -60,14 +60,17 @@ body {
     position: absolute;
     bottom: 20px;
     left: 50%;
+    color: black;
     transform: translateX(-50%);
-    background: rgb(189, 82, 82);
+ 
+    background-color: rgb(12, 255, 77);
     padding: 10px 20px;
     font-weight: bold;
     transition: transform 0.3s, background 0.3s;
 }
 
 .cta:hover {
+        color:  rgb(12, 255, 77);
     transform: translateX(-50%) scale(1.1);
-    background: #a16464;
+    background: #000000;
 }
