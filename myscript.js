@@ -1,10 +1,6 @@
+// ---------------VARIABILI--------
 // clickTag (standard advertising)
 const clickTag = "https://www.google.com";
-
-document.getElementById("banner").addEventListener("click", function () {
-    window.open(clickTag, "_blank");
-});
-
 // sequenza animazioni
 const frames = [
     document.getElementById("frame1"),
@@ -13,11 +9,17 @@ const frames = [
 ];
 
 let current = 0;
-
+// ---------------FUNZIONI--------
+//carosello
 function showNextFrame() {
     frames[current].classList.remove("active");
     current = (current + 1) % frames.length;
     frames[current].classList.add("active");
 }
+
+// ---------------OPERAZIONI--------
+document.getElementById("banner").addEventListener("click", function () {
+    window.open(clickTag, "_blank");
+});
 
 setInterval(showNextFrame, 2000);
