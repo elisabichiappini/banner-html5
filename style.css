@@ -20,7 +20,7 @@ body {
 .banner {
     width: 300px;
     height: 250px;
-    color: rgb(0, 255, 8);
+    color: rgb(255, 0, 0);
     font-family: Arial, sans-serif;
     position: relative;
     overflow: hidden;
@@ -63,14 +63,14 @@ body {
     color: black;
     transform: translateX(-50%);
  
-    background-color: rgb(12, 255, 77);
+    background-color:rgb(255, 0, 0);
     padding: 10px 20px;
     font-weight: bold;
     transition: transform 0.3s, background 0.3s;
 }
 
 .cta:hover {
-        color:  rgb(12, 255, 77);
+        color: rgb(255, 0, 0);
     transform: translateX(-50%) scale(1.1);
     background: #000000;
 }
